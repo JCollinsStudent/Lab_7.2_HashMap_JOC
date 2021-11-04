@@ -23,11 +23,11 @@ public class Application {
                 map.put(splitString[0], splitString[1]);
             }
             System.out.println(map + "\n");
-            System.out.println("Word: ague; Definition: " + map.get("ague") + "; Hashcode: " + map.get("ague").hashCode() + ";");
-            System.out.println("Word: damsel; Definition: " + map.get("damsel") + "; Hashcode: " + map.get("damsel").hashCode() + ";");
-            System.out.println("Word: espousal; Definition: " + map.get("espousal") + "; Hashcode: " + map.get("espousal").hashCode() + ";");
-            System.out.println("Word: goody; Definition: " + map.get("goody") + "; Hashcode: " + map.get("goody").hashCode() + ";");
-            System.out.println("Word: horse-coper; Definition: " + map.get("horse-coper") + "; Hashcode: " + map.get("horse-coper").hashCode() + ";");
+            System.out.println("Word: ague; Definition: " + map.get("ague") + "; Hashcode: " + "ague".hashCode() + ";");
+            System.out.println("Word: damsel; Definition: " + map.get("damsel") + "; Hashcode: " + "damsel".hashCode() + ";");
+            System.out.println("Word: espousal; Definition: " + map.get("espousal") + "; Hashcode: " + "espousal".hashCode() + ";");
+            System.out.println("Word: goody; Definition: " + map.get("goody") + "; Hashcode: " + "goody".hashCode() + ";");
+            System.out.println("Word: horse-coper; Definition: " + map.get("horse-coper") + "; Hashcode: " + "horse-coper".hashCode() + ";");
         }
         catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
